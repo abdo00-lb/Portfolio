@@ -1,0 +1,128 @@
+[
+  {
+    "id": "dyna-info-notifications-microservice",
+    "role": ".NET Core & Angular Developer",
+    "company": "Dyna Info",
+    "city": "Casablanca",
+    "period": { "from": "2024-06", "to": "present" },
+    "projects": [
+      {
+        "title": "Gestion des Notifications (Microservice)",
+        "summary": "Application de gestion des notifications permettant d’envoyer des alertes en temps réel aux utilisateurs métier.",
+        "bullets": [
+          "Conception et développement d’APIs REST en .NET Core dans une architecture microservices (ABP Framework, EF Core).",
+          "Mise en place de la communication asynchrone via RabbitMQ pour la diffusion des notifications en temps réel.",
+          "Correction de bugs et amélioration de la stabilité du service."
+        ],
+        "tags": [
+          ".NET 9",
+          "Microservices",
+          "ABP Framework",
+          "EF Core 9",
+          "SQL Server",
+          "RabbitMQ",
+          "Git",
+          "GitLab",
+          "Jira",
+          "Visual Studio 2023"
+        ],
+        "environment": {
+          "tech": [".NET 9", "ABP Framework", "EF Core 9", "SQL Server"],
+          "tools": ["RabbitMQ", "Git", "GitLab", "Jira", "Visual Studio 2023"]
+        }
+      },
+      {
+        "title": "Bconnect (WEB - ERP)",
+        "summary": "Solution ERP web conçue pour offrir un contrôle avancé et intégré de la gestion commerciale et des stocks, avec supervision en temps réel et optimisation des opérations.",
+        "bullets": [
+            "Contribution à la conception technique et participation active aux cérémonies Scrum (animation/échanges).",
+            "Analyse des besoins et conception de la base de données.",
+            "Développement du backend en .NET Core (architecture Web API).",
+            "Développement du frontend avec Angular.",
+            "Réalisation d’audits qualité, revues de code et amélioration continue.",
+            "Correction de bugs et stabilisation de l’application.",
+            "Automatisation, contrôle et intégration des données."
+        ],
+        "tags": [
+            "Angular 19",
+            ".NET 9",
+            "Web API",
+            "SQL Server",
+            "ABP Framework",
+            "EF Core 9",
+            "SignalR",
+            "RabbitMQ",
+            "Git",
+            "GitLab",
+            "Jira",
+            "Visual Studio 2023",
+            "VS Code"
+        ],
+        "environment": {
+            "tech": ["Angular 19", ".NET 9", "SQL Server", "ABP Framework", "EF Core 9", "SignalR"],
+            "tools": ["RabbitMQ", "Git", "GitLab", "Jira", "Visual Studio 2023", "Visual Studio Code"]
+        }
+        },
+        {
+            "title": "Bconnect (Mobile)",
+            "summary": "Application mobile permettant de suivre les précommandes et les livraisons des clients.",
+            "bullets": [
+                "Contribution à la conception technique et participation active aux réunions Scrum.",
+                "Développement du backend en .NET (architecture Web API).",
+                "Développement de l’application mobile avec Xamarin.Forms (Android / iOS).",
+                "Mise en place du stockage local et persistance des données avec SQLite.",
+                "Réalisation d’audits qualité, revues de code et amélioration continue.",
+                "Correction de bugs et stabilisation de l’application."
+            ],
+            "tags": [
+                "Xamarin.Forms",
+                "Android",
+                "iOS",
+                ".NET 6",
+                "Web API",
+                "SQLite",
+                "Git",
+                "GitLab",
+                "Jira",
+                "Visual Studio 2023"
+            ],
+            "environment": {
+                "tech": ["Xamarin.Forms", ".NET 6", "SQLite"],
+                "tools": ["Git", "GitLab", "Jira", "Visual Studio 2023"]
+            }
+            }
+
+
+    ]
+  },
+  {
+    "id": "morchid-engineering-2022",
+    "role": "Développeur PHP / JavaScript",
+    "company": "Morchid Engineering",
+    "city": "Casablanca",
+    "period": { "from": "2022-01", "to": "2022-05" },
+    "projects": [
+        {
+        "title": "Système de pointage",
+        "summary": "Solution web de gestion du temps permettant un contrôle centralisé des présences, horaires et activités. Suivi en temps réel des pointages et automatisation de la gestion des retards, absences et heures supplémentaires.",
+        "bullets": [
+            "Développement du backend en PHP.",
+            "Développement du frontend en JavaScript (jQuery).",
+            "Réalisation d’audits qualité et participation aux revues de code.",
+            "Correction de bugs et amélioration de la stabilité."
+        ],
+        "tags": [
+            "PHP",
+            "JavaScript",
+            "jQuery",
+            "JobRouter",
+            "Visual Studio Code"
+        ],
+        "environment": {
+            "tech": ["PHP", "JavaScript", "jQuery"],
+            "tools": ["JobRouter", "Visual Studio Code"]
+        }
+        }
+    ]
+    }
+]

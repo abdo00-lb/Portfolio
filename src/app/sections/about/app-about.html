@@ -1,0 +1,62 @@
+<section id="aboutme" class="hero">
+  <div class="about2-grid">
+    <div class="about2-main">
+      <p class="lead">
+        {{"aboutmeinfo"|transloco}}
+      </p>
+
+      <p class="body">
+        {{"aboutmeinfo2"|transloco}}
+      </p>
+
+      <p class="body">
+        {{"aboutmeinfo3"|transloco}}
+      </p>
+    </div>
+
+    <!-- Right: Languages + quick facts -->
+    <aside class="about2-card">
+      <div class="about2-card-top">
+        <span class="pill soft">{{'languages' | transloco}}</span>
+        <span class="meta">{{ 'Communication' | transloco }}</span>
+      </div>
+
+      <div class="lang-list">
+        @for (item of language; track $index) {
+        <div class="lang-row">
+          <div class="lang-left">
+            <div class="lang-name">{{item.name}}</div>
+            <div class="lang-level">{{item.leveltxt|transloco}}</div>
+          </div>
+          <div class="lang-right">
+            <div class="meter"><span [class]="'meterwhidth-'+item.level"></span></div>
+            <div class="score">{{item.level}}/5</div>
+          </div>
+        </div>
+      }
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="quick-grid">
+        <div class="quick">
+          <div class="q-title">{{"Focus"|transloco}}</div>
+          <div class="q-value">Enterprise apps</div>
+        </div>
+        <div class="quick">
+          <div class="q-title">Style</div>
+          <div class="q-value">Clean, scalable</div>
+        </div>
+        <div class="quick">
+          <div class="q-title">Collaboration</div>
+          <div class="q-value">Scrum / reviews</div>
+        </div>
+        <div class="quick">
+          <div class="q-title">{{"Location"|transloco}}</div>
+          <div class="q-value">Casablanca</div>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+</section>

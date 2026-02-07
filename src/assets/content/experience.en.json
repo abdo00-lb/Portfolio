@@ -1,0 +1,129 @@
+[
+  {
+    "id": "dyna-info-notifications-microservice",
+    "role": ".NET Core & Angular Developer",
+    "company": "Dyna Info",
+    "city": "Casablanca",
+    "period": { "from": "2024-06", "to": "present" },
+    "projects": [
+      {
+        "title": "Notification Management (Microservice)",
+        "summary": "Notification management service used to send real-time alerts to business users.",
+        "bullets": [
+          "Designed and developed REST APIs in .NET Core within a microservices architecture (ABP Framework, EF Core).",
+          "Implemented asynchronous communication with RabbitMQ to deliver real-time notifications reliably.",
+          "Fixed bugs and improved service stability."
+        ],
+        "tags": [
+          ".NET 9",
+          "Microservices",
+          "ABP Framework",
+          "EF Core 9",
+          "SQL Server",
+          "RabbitMQ",
+          "Git",
+          "GitLab",
+          "Jira",
+          "Visual Studio 2023"
+        ],
+        "environment": {
+          "tech": [".NET 9", "ABP Framework", "EF Core 9", "SQL Server"],
+          "tools": ["RabbitMQ", "Git", "GitLab", "Jira", "Visual Studio 2023"]
+        }
+      },
+      {
+        "title": "Bconnect (Web ERP)",
+        "summary": "Web ERP solution designed to provide advanced, integrated control of commercial management and inventory, enabling real-time monitoring and optimized operations.",
+        "bullets": [
+            "Contributed to technical design and actively participated in Scrum ceremonies (facilitation/discussions).",
+            "Analyzed requirements and designed the SQL Server database.",
+            "Developed backend services using .NET (Web API architecture).",
+            "Developed the frontend using Angular.",
+            "Performed quality audits, participated in code reviews, and improved overall maintainability.",
+            "Fixed bugs and improved application stability.",
+            "Automated, validated, and integrated business data flows."
+        ],
+        "tags": [
+            "Angular 19",
+            ".NET 9",
+            "Web API",
+            "SQL Server",
+            "ABP Framework",
+            "EF Core 9",
+            "SignalR",
+            "RabbitMQ",
+            "Git",
+            "GitLab",
+            "Jira",
+            "Visual Studio 2023",
+            "VS Code"
+        ],
+        "environment": {
+            "tech": ["Angular 19", ".NET 9", "SQL Server", "ABP Framework", "EF Core 9", "SignalR"],
+            "tools": ["RabbitMQ", "Git", "GitLab", "Jira", "Visual Studio 2023", "Visual Studio Code"]
+        }
+        },
+        {
+            "title": "Bconnect (Mobile)",
+            "summary": "Mobile application used to track customer pre-orders and deliveries.",
+            "bullets": [
+                "Contributed to technical design and actively participated in Scrum meetings.",
+                "Developed backend services using .NET (Web API architecture).",
+                "Developed the mobile app using Xamarin.Forms (Android / iOS).",
+                "Implemented local data persistence using SQLite.",
+                "Performed quality audits, participated in code reviews, and improved maintainability.",
+                "Fixed bugs and improved application stability."
+            ],
+            "tags": [
+                "Xamarin.Forms",
+                "Android",
+                "iOS",
+                ".NET 6",
+                "Web API",
+                "SQLite",
+                "Git",
+                "GitLab",
+                "Jira",
+                "Visual Studio 2023"
+            ],
+            "environment": {
+                "tech": ["Xamarin.Forms", ".NET 6", "SQLite"],
+                "tools": ["Git", "GitLab", "Jira", "Visual Studio 2023"]
+            }
+            }
+
+
+    ]
+  },
+  {
+    "id": "morchid-engineering-2022",
+    "role": "PHP / JavaScript Developer",
+    "company": "Morchid Engineering",
+    "city": "Casablanca",
+    "period": { "from": "2022-01", "to": "2022-05" },
+    "projects": [
+        {
+        "title": "Time & Attendance Tracking System",
+        "summary": "Web-based time management solution providing centralized control of attendance, schedules, and employee activity. Real-time check-in/out tracking with automated handling of late arrivals, absences, and overtime.",
+        "bullets": [
+            "Developed backend features using PHP.",
+            "Built frontend functionality with JavaScript and jQuery.",
+            "Performed quality checks and participated in code reviews.",
+            "Fixed bugs and improved overall stability."
+        ],
+        "tags": [
+            "PHP",
+            "JavaScript",
+            "jQuery",
+            "JobRouter",
+            "Visual Studio Code"
+        ],
+        "environment": {
+            "tech": ["PHP", "JavaScript", "jQuery"],
+            "tools": ["JobRouter", "Visual Studio Code"]
+        }
+        }
+    ]
+    }
+
+]

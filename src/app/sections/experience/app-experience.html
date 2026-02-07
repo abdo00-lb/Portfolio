@@ -1,0 +1,84 @@
+<section id="exp" class="section">
+  <div class="section-header">
+    <h2>Professional Experience</h2>
+  </div>
+
+  <div class="experience-timeline">
+    
+    <!-- Experience 1: Dyna Info (Present) -->
+    <div class="exp-card" *ngFor="let exp of (experiences$ | async)">
+      <div class="exp-header">
+        <div class="role-company">
+          <h3>{{exp.role}}</h3>
+          <span class="company">{{exp.company}}, {{exp.city}}</span>
+        </div>
+        <span class="duration">{{ exp.period.from }} - {{ exp.period.to }}</span>
+      </div>
+
+      <div class="project-block" *ngFor="let p of exp.projects">
+        <h4 class="project-title">{{ 'Project' | transloco }}: {{ p.title }}</h4>
+        <p class="project-desc">{{ p.summary }}</p>
+        <ul class="tasks">
+          <li *ngFor="let b of p.bullets">{{ b }}</li>
+        </ul>
+        <div class="tech-stack">
+          <span *ngFor="let tag of p.tags">{{tag}}</span>
+        </div>
+      </div>
+
+      <!-- Project 2: Bconnect ERP -->
+      <!-- <div class="project-block">
+        <h4 class="project-title">Project: Bconnect (Web ERP)</h4>
+        <p class="project-desc">Integrated web ERP solution for advanced commercial management and real-time stock control.</p>
+        <ul class="tasks">
+          <li>Analyzed requirements and designed the SQL Server database architecture.</li>
+          <li>Developed backend microservices (Web API) with .NET Core and frontend modules with Angular 19.</li>
+          <li>Participated in Scrum meetings, code reviews, and quality audits.</li>
+          <li>Implemented real-time updates using SignalR.</li>
+        </ul>
+        <div class="tech-stack">
+          <span>Angular 19</span> <span>.NET 9</span> <span>SignalR</span> <span>Visual Studio 2022</span>
+        </div>
+      </div> -->
+
+      <!-- Project 3: Bconnect Mobile -->
+      <!-- <div class="project-block">
+        <h4 class="project-title">Project: Bconnect Mobile</h4>
+        <p class="project-desc">Mobile application for tracking client pre-orders and deliveries.</p>
+        <ul class="tasks">
+          <li>Built cross-platform mobile features (Android/iOS) using Xamarin Forms.</li>
+          <li>Optimized local data storage with SQLite and synchronized with the .NET backend.</li>
+        </ul>
+        <div class="tech-stack">
+          <span>Xamarin Forms</span> <span>.NET 6</span> <span>SQLite</span>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- Experience 2: Morchid Engineering -->
+    <!-- <div class="exp-card">
+      <div class="exp-header">
+        <div class="role-company">
+          <h3>PHP / JavaScript Developer</h3>
+          <span class="company">Morchid Engineering, Casablanca</span>
+        </div>
+        <span class="duration">Jan 2022 – May 2022</span>
+      </div> -->
+
+      <!-- Project: Time Tracking -->
+      <!-- <div class="project-block">
+        <h4 class="project-title">Project: Attendance Management System</h4>
+        <p class="project-desc">Web solution for centralized employee time tracking and activity monitoring.</p>
+        <ul class="tasks">
+          <li>Developed backend logic using PHP and frontend interactivity with JavaScript/jQuery.</li>
+          <li>Automated calculations for delays, absences, and overtime.</li>
+          <li>Conducted debugging and code optimization.</li>
+        </ul>
+        <div class="tech-stack">
+          <span>PHP</span> <span>JavaScript</span> <span>jQuery</span> <span>JobRouter</span>
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+</section>

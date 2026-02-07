@@ -1,0 +1,27 @@
+<section id="skills" class="section section--alt">
+    <div class="wrap">
+      <div class="section-header">
+        <h2 class="h2">{{"skill"|transloco}}</h2>
+      </div>
+
+      <div class="skills-container">
+        <div class="skill-card" *ngFor="let parent of skillsContainer">
+          <div class="card-header">
+            <i [ngClass]="parent.icon"></i>
+            <h3>{{parent.Name|transloco}}</h3>
+          </div>
+          
+          <div class="skill-item"  *ngFor="let skill of parent.skills">
+            <div class="skill-info">
+              <span class="skill-name">{{skill.name}} <span class="badge expert">{{skill.leveltxt|transloco}}</span></span>
+              <span class="skill-percent">{{skill.level}}</span>
+            </div>
+            <div class="progress-bg">
+            <div class="progress-bar" [style.width.%]="skill.level" [ngClass]="{ 'blue': skill.level < 50, 'green': skill.level >= 50 && skill.level < 80, 'red': skill.level >= 80 }">
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
