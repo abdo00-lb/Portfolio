@@ -90,70 +90,6 @@ body{
 
 .w100{ width: 100%; }
 
-// .hero{ padding: 64px 0 26px; }
-// .hero__grid{
-//   display: grid;
-//   grid-template-columns: 1.2fr .8fr;
-//   gap: 18px;
-//   align-items: start;
-// }
-// .hero__copy{
-//   padding: 28px;
-//   border-radius: var(--r20);
-//   border: 1px solid var(--line);
-//   background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.03));
-//   box-shadow: var(--shadow);
-// }
-// .eyebrow{
-//   margin: 0 0 10px;
-//   color: rgba(56,189,248,.92);
-//   font-size: 12px;
-//   letter-spacing: 1.6px;
-//   text-transform: uppercase;
-// }
-// .hero__title{
-//   margin: 0 0 10px;
-//   font-size: clamp(30px, 3.2vw, 46px);
-//   line-height: 1.08;
-//   letter-spacing: -0.6px;
-// }
-// .hero__lead{
-//   margin: 0 0 16px;
-//   color: var(--muted);
-//   line-height: 1.65;
-//   max-width: 62ch;
-// }
-// .hero__cta{ display: flex; gap: 10px; flex-wrap: wrap; }
-
-// .stats{
-//   margin-top: 18px;
-//   display: grid;
-//   grid-template-columns: repeat(3, minmax(0, 1fr));
-//   gap: 10px;
-// }
-// .stat{
-//   border-radius: 14px;
-//   border: 1px solid var(--line);
-//   background: rgba(255,255,255,.03);
-//   padding: 12px;
-// }
-// .stat__v{ font-weight: 800; font-size: 13px; }
-// .stat__k{ margin-top: 4px; color: var(--muted); font-size: 12px; }
-
-// .hero__panel .panel{
-//   border-radius: var(--r20);
-//   border: 1px solid var(--line);
-//   background: rgba(255,255,255,.03);
-//   box-shadow: var(--shadow);
-//   padding: 18px;
-// }
-// .panel__top{
-//   display: flex; align-items: center; justify-content: space-between;
-//   gap: 10px;
-//   padding-bottom: 12px;
-//   border-bottom: 1px solid var(--line);
-// }
-
 /* Cursor Blink Keyframes */
 @keyframes blink-caret {
   from, to { border-color: transparent; }
@@ -219,19 +155,6 @@ body{
   font-size: 12px;
 }
 
-.skillgrid{
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-}
-.skill{
-  border-radius: var(--r16);
-  border: 1px solid var(--line);
-  background: rgba(255,255,255,.03);
-  padding: 16px;
-}
-.skill__h{ font-weight: 900; margin-bottom: 10px; }
-
 .timeline{ display: grid; gap: 12px; }
 .titem{
   display: grid;
@@ -285,34 +208,6 @@ body{
   .grid{ grid-template-columns: 1fr; }
   .skillgrid{ grid-template-columns: 1fr; }
   .contact{ grid-template-columns: 1fr; }
-}
-
-/* Card Header (Degree + Year) */
-.edu-header {
-  margin-bottom: 12px;
-  
-  .degree {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #fff;
-    margin: 0 0 8px 0;
-    line-height: 1.4;
-  }
-
-  .year {
-    display: inline-block;
-    font-size: 0.9rem;
-    color: #8b949e;
-    font-weight: 500;
-  }
-}
-
-/* School Name */
-.school {
-  color: #c9d1d9;
-  font-size: 1rem;
-  margin-bottom: 20px;
-  flex-grow: 1; /* Pushes tags to bottom */
 }
 
 /* Tags (Pills) */
