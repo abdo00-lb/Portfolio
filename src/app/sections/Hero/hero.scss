@@ -245,3 +245,42 @@
 @media (prefers-reduced-motion: reduce){
   .hero__role, .portrait__ring, .float-card{ animation: none; }
 }
+//cv btn 
+.cv-btn{
+  --bg: var(--accent, #6d5efc);
+  --bg2: color-mix(in srgb, var(--bg) 78%, black);
+  --ring: color-mix(in srgb, var(--bg) 45%, white);
+
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+
+  padding: .85rem 1.1rem;
+  border-radius: 999px;
+
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: .2px;
+
+  background: linear-gradient(135deg, var(--bg), var(--bg2));
+  box-shadow: 0 10px 24px rgba(0,0,0,.22);
+  transform: translateY(0);
+  transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+}
+
+.cv-btn:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 14px 32px rgba(0,0,0,.28);
+  filter: saturate(1.05);
+}
+
+.cv-btn:active{
+  transform: translateY(0);
+  box-shadow: 0 8px 18px rgba(0,0,0,.22);
+}
+
+.cv-btn:focus-visible{
+  outline: 3px solid var(--ring);
+  outline-offset: 4px;
+}

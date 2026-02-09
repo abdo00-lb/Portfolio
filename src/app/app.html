@@ -15,7 +15,10 @@
       <a class="nav__link" href="#contact">{{"Contact"|transloco}}</a>
     </nav>
 
-    <button class="btn btn--primary" (click)="getopsite()">{{lang}}</button>
+    <button class="btn btn--primary btnlang" (click)="getopsite()">
+      <span class="lang-flag">{{lang}}</span>
+      <span class="lang-text">{{lang}}</span>
+    </button>
   </div>
 </header>
 

@@ -92,3 +92,13 @@
   &.indigo { background: linear-gradient(90deg, #6366f1, #818cf8); }
   &.purple { background: linear-gradient(90deg, #a855f7, #c084fc); }
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .skills-container {
+    padding: 0;
+  }
+  .skill-card {
+    width: 100%;
+  }
+}
